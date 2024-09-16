@@ -1,0 +1,20 @@
+#include <iostream>
+// iostream is a libary for input and output
+using namespace std;
+
+int main() {
+
+    std::cout << "Hello World" << std::endl;
+
+    // std = is for namespace
+    // cout is for console log out
+    // cout come from the io libary
+    // << data flows from right to left and this indicates the data flowing to the cout
+    // The "Hello world" is call a literal constant or here a string literal constant
+    // The endl = creates a new line
+    // We can remove the std:: by adding using namepsace std; at the top of the file
+
+    cout << "Hello again" << endl;
+
+    return 0;
+}

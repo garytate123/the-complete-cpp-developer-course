@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+
+// you should always end a statement with ;
+
+int main() 
+{
+
+    // We declare the variable 
+    int myInt;
+    // We assign the number 15 to the variable
+    myInt = 15;
+
+    // you can do this
+    double myDouble = 3.14159;
+
+
+    // When declaring a variable, you can't...
+        // have spaces in the name
+        // you can start with upper or lower case
+        // you can start with _
+        // you cant use key words like int
+        // you can not start with a number but it can contain a number
+        // no spacial characters
+    
+    // Name conventions 
+        // start with lowercase
+        // use camel case toStartTheName
+
+
+    // this will print the number 15
+    cout << myInt << endl;
+
+    // this will print out 3.14159
+    count << myDouble <, endl;
+
+
+    // =================================================================
+
+    // Datatypes
+        // Int = 42
+        // double = 3.56
+
+
+    return 0
+}
+
+
